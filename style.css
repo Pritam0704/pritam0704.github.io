@@ -684,6 +684,7 @@ ul { list-style: none; }
 .project-card:nth-child(3)::after { background: linear-gradient(135deg, rgba(6,182,212,0.06), transparent); }
 .project-card:nth-child(4)::after { background: linear-gradient(135deg, rgba(16,185,129,0.06), transparent); }
 
+.project-card { cursor: pointer; }
 .project-card:hover { transform: translateY(-6px); border-color: rgba(255,255,255,0.16); box-shadow: 0 24px 64px rgba(0,0,0,0.4); }
 .project-card:hover::after { opacity: 1; }
 
